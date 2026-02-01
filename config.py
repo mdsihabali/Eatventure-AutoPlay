@@ -2,8 +2,8 @@
 # WINDOW_TITLE: The exact title of the scrcpy window (visible at the top of the window)
 # To find it: Look at your scrcpy window's title bar, it usually shows your device model
 WINDOW_TITLE = "V2352GA"
-WINDOW_WIDTH = 300 * 1.2
-WINDOW_HEIGHT = 650 * 1.2
+WINDOW_WIDTH = int(300 * 1.2)
+WINDOW_HEIGHT = int(650 * 1.2)
 
 # Detection Thresholds
 MATCH_THRESHOLD = 0.98
