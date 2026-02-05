@@ -32,7 +32,7 @@ try:
             print("No messages found!")
             print("\nPlease:")
             print("1. Open Telegram and find your bot")
-            print("2. Send any message to your bot (e.g., 'Hello')")
+            print("2. Send any message to your bot (e.g., 'Hi,Hello')")
             print("3. Run this script again")
         else:
             print("Found messages!\n")
